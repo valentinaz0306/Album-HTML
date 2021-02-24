@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+* {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.album {
+  padding: 3em;
+  width: 750px;
+  background:black;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.album__name {
+  margin-bottom: 1em;
+  
+}
+
+.album__information {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.album__description {
+  width: 100%;
+  padding: 1em 1;
+}
+
+.album__text {
+  width: 50%;
+}
+
+.album__img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+}
+
+.album__items {
+  padding: 1 2em;
+  font-size: 1em;
+}
+
+.album__story {
+  margin-top: 1em;
+  font-size: 0.8em;
+}
+
+a {
+  margin-top: 1em;
+  color: white;
+  width: 180px;
+  background: #e62e2e;
+  padding: 1em 2em;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+a img {
+  text-align: center;
+  margin-right: 1em;
+  width: 2em;
+}
