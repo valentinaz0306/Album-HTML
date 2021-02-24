@@ -28,6 +28,11 @@ body {
   display: flex;
   justify-content: space-between;
   position: relative;
+  border-top: dashed 1px;
+  border-bottom: dashed 1px;
+  border-color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .album__description {
